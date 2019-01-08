@@ -1,146 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <title>Andres Inciarte Portfolio</title>
-    <style>
-        body {
-            background-image: url(images/connectwork.png);
-        }
 
-        .navbar-brand {
-            width: 300px;
-            height: 90px;
-            background-color: #64232e;
-            text-align: center;
-            line-height: 90px;
-            font-family: 'Georgia', 'Times New Roman', Times, serif;
-            margin-left: 350px;
-            font-size: 32px;
-            color: white;
-            margin-top: -10px;
-            margin-bottom: -10px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        }
+  <title>Andres Inciarte Portfolio</title>
 
-        .col-lg-12 {
-            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-            width: 960px;
-            height: 500px;
-            background-color: white;
-            margin-top: 50px;
 
-        }
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
-        .container-fluid {
-            height: 50px;
-            background-color: #666666;
-            float: left;
-            clear: both;
-            text-align: center;
-            border-top: 5px solid red;
-            position: absolute;
-            bottom: 0;
-        }
-
-        #profile {
-            position: left;
-            width: 300px;
-            height: 250px;
-        }
-
-        div.gallery {
-            margin: 80px;
-            margin-right: 40px;
-            margin-top: 10px;
-            border: 1px solid #ccc;
-            float: left;
-            width: 180px;
-        }
-
-        div.gallery:hover {
-            border: 1px solid #777;
-        }
-
-        div.gallery img {
-            width: 100%;
-            height: auto;
-        }
-
-        div.desc {
-            padding: 15px;
-            text-align: center;
-        }
-        #new {
-            margin-left: 80px;
-            margin-top: 210px;
-            position: absolute;
-        }
-    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Andres Inciarte</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">About
-                       
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                    <span class="sr-only">(current)</span>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
     <div class="container">
-        <div class="row"></div>
-        <div class="col-lg-12">
-            <h2>Portfolio</h2>
-            <hr id="first">
-            <div class="gallery">
-                <a target="_blank" href="assets/images/hangman.png">
-                    <img src="assets/images/hangman.png" alt="hang" width="600" height="400">
-                </a>
-                <div class="desc">Hangman Game</div>
-            </div>
-
-            <div class="gallery">
-                <a target="_blank" href="img_forest.jpg">
-                    <img src="assets/images/RPG.jpg" alt="Forest" width="600" height="400">
-                </a>
-                <div class="desc">RPG Game</div>
-            </div>
-
-            <div class="gallery">
-                <a target="_blank" href="img_lights.jpg">
-                    <img src="assets/images/trivia.jpg" alt="Northern Lights" width="600" height="400">
-                </a>
-                <div class="desc">Trivia Game</div>
-            </div>
-
-            <div id="new" class="gallery">
-                <a target="_blank" href="img_mountains.jpg">
-                    <img src="assets/images/RPS.jpg" alt="Mountains" width="600" height="400">
-                </a>
-                <div class="desc">Rock Paper Scissors</div>
-            </div>
-        </div>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="logo">Andres Inciarte</a>
+      </div>
+      <button class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse"
+        aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="page-nav-collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="container-fluid">
-        <footer> Copyright© </footer>
-    </div>
+  </nav>
+  <div class="container">
+    <main class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">Portfolio</h1>
+          <hr />
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="./assets/images/magic-8-ball-black-tshir_Square_Car_Magnet_3_x_3_300x300.jpg"
+                alt="">
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="./assets/images/download.png" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="./assets/images/61H-uW35-hL._SX425_.jpg" alt="">
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="./assets/images/old-video-game-square-template-260nw-548362195.jpg"
+                alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid port-image" src="./assets/images/Rock_Paper_Scissors_Sticker_300x300.jpg" alt="">
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2018 Your Name
+    </p>
+  </footer>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
 
 </html>
